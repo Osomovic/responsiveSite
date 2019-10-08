@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(208, 236, 161);
+}
+#title{
+    color: rgb(22, 49, 112);
+    text-align: center;
+}
+#form{
+    background-color: rgb(114, 131, 85);
+    width: 70%;
+    margin: 0 auto;
+    height: 100vw;
+}
+#description{
+    text-align: center;
+    color: rgb(240, 229, 209);
+    padding-top: 20px;
+}
+#survey-form{
+    text-align: center;
+    float: right;
+    margin-right: 5%;
+}
+#name{
+    padding: 8px;
+}
+#email{
+    padding: 8px;
+}
+#age{
+    padding: 8px 0px 0px 12px;
+}
+#input{
+    padding: 5px 25px 5px 5px;
+    margin-left: 15px;
+}
+#level{
+    padding: 17px 352px 0px 0px;
+}
+#option{
+    padding: 5px 15px 5px 5px;
+    margin-left: 15px;
+}
+#services{
+    padding: 17px 352px 0px 0px;
+}

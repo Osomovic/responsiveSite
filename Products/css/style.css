@@ -1,0 +1,246 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+#header{
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+    background-color: wheat;
+}
+#header-img{
+    margin-right: auto;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 10%;
+}
+.nav-link{
+    float: right;
+    display: inline-block;
+    margin: 15px 40px 0px 0px;
+}
+nav ul li a{
+    font-size: 18px;
+    color: #135C9A;
+    text-decoration: none;
+    font-family: calibri;
+    font-weight: bolder;
+}
+#topic{
+    margin-top: 100px;
+    text-align: center;
+    font-family: calibri;
+}
+#form{
+    text-align: center;
+}
+#email{
+    padding: 3px 30px 3px 4px;
+}
+#submit{
+    margin-top: 15px;
+    padding: 5px 8px;
+    background-color: rgb(201, 122, 20);
+    border: none;
+    font-family: calibri;
+    font-weight: bolder;
+    font-size: 15px;
+}
+#container{
+    width: 80%;
+    margin: 0 auto;
+}
+#container>div{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.svg-inline--fa{
+    display: inline-block;
+    align-self: center;
+    width: 5%;
+    vertical-align: middle;
+    color: #135C9A;
+}
+
+#container>div div{
+    display: inline-block;
+    width: 80%;
+    vertical-align: middle;
+
+}
+#container>div div h3{
+    font-family: calibri;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+#container>div div p{
+    font-family: calibri;
+    font-size: 18px;
+    margin-top: 0px;
+}
+#video{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+video{
+    width: 50%;  
+    box-shadow: 1px 1px 5px #afa7a7;
+}
+#land{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px; 
+}
+.container{
+    border: 1px solid #135C9A;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.container h4{
+    font-family: calibri;
+    font-size: 17px;
+    background-color: rgb(236, 197, 125);
+    margin-top: 0;
+    padding: 10px 0;
+}
+li{
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+#select{
+    margin-top: 20px;
+    margin-bottom: 12px;
+    padding: 5px 14px;
+    background-color: rgb(201, 122, 20);
+    border: none;
+    font-family: calibri;
+    font-size: 15px;
+}
+footer{
+    background-color: rgb(236, 197, 125);
+    width: 81%;
+    margin: 0 auto;
+    font-family: calibri;
+    font-size: 15px;
+    font-weight: 500;
+}
+footer div p{
+   display: flex;
+   justify-content: flex-end;
+   padding-bottom: 10px;
+   margin-top: 0px;
+   width: 88%
+}
+footer div ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+footer div ul li{
+    width: 10%;
+}
+@media screen and (max-width: 768px){
+    #header-img{
+        display: none;
+        margin-right: auto;
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 15%;
+    }
+    #container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    #container>div{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+    
+    .svg-inline--fa{
+        display: none;
+    }
+    
+    #container>div div{
+        display: inline-block;
+        width: 100%;
+        vertical-align: middle;
+    
+    }
+    #container>div div h3{
+        font-family: calibri;
+        font-weight: bolder;
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+    #container>div div p{
+        font-family: calibri;
+        font-size: 18px;
+        margin-top: 0px;
+    }
+    #video{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    video{
+        width: 100%;  
+        box-shadow: 1px 1px 5px #afa7a7;
+    }
+    #land{
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr; 
+    }
+    .container{
+        border: 1px solid #135C9A;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .container h4{
+        font-family: calibri;
+        font-size: 17px;
+        background-color: rgb(236, 197, 125);
+        margin-top: 0;
+        padding: 10px 0;
+    }
+    li{
+        list-style-type: none;
+        padding-bottom: 5px;
+    }
+    #select{
+        margin-top: 20px;
+        margin-bottom: 12px;
+        padding: 5px 14px;
+        background-color: rgb(201, 122, 20);
+        border: none;
+        font-family: calibri;
+        font-size: 15px;
+    }
+    footer div p{
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 10px;
+        margin-top: 0px;
+        width: 88%
+    }
+    footer div ul li{
+    width: 15%;
+    }
+}

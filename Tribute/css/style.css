@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(123, 153, 235);
+}
+main{
+    text-align: center;
+}
+#title{
+    color: rgb(5, 14, 32);
+    font-family: raleway;
+    font-weight: bolder;
+}
+.title{
+    color: rgb(5, 14, 32);
+    font-family: roboto;
+}
+#img-div{
+    margin: 0 auto;
+    width: 97%;
+    background-color: rgb(53, 79, 150);
+}
+#image{
+    width: 65%;
+    margin-top: 30px
+}
+#img-caption{
+    color: rgb(5, 14, 32);
+    font-family: roboto;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+#tribute-info{
+    color: rgb(5, 14, 32);
+    font-family: roboto;
+    padding-top: 30px;
+}
+#list{
+    text-align: left;
+    color: rgb(5, 14, 32);
+    font-family: roboto;
+    width: 50%;
+    margin: 0 auto;
+}
+#list li{
+    padding-top: 15px;
+}
+#quote{
+    text-align: left;
+    color: rgb(5, 14, 32);
+    font-style: italic;
+    width: 50%;
+    margin: 0 auto;
+}
+#quote p{
+    text-align: center;
+}
+#tribute-link{
+    text-align: center;
+    color: rgb(5, 14, 32);
+    font-family: roboto;
+    font-size: 17px;
+}

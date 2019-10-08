@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+    <h1 id="title">Survey Form</h1>
+    <section id="form">
+        <p id="description">Tell us how to make our users experience much better</p>
+        <div>
+            <form id="survey-form" action="contact us">
+                <div id="name">
+                    <sup>*</sup><label>Name:</label>
+                    <input id="input" type="text" placeholder="Enter name" name="name">
+                </div>
+                <div id="email">
+                    <sup>*</sup><label>Email:</label>
+                    <input id="input" type="text" placeholder="Enter email" name="email">
+                </div>
+                <div id="age">
+                    <sup>*</sup><label>Age:</label>
+                    <input id="input" type="text" placeholder="Enter your age" name="age">
+                </div>
+                <div id="level">
+                    <label>Which option best describes your current role?</label>
+                    <select id="option" name="Level" >
+                        <option value="student">Student</option>
+                        <option value="graduate">Graduate</option>
+                        <option value="master">Master</option>
+                    </select>
+                </div>
+                <div id="services">
+                    <sup>*</sup><label>How likely is it that you would recommend<br>services to friends and family?:</label>
+                    <input type="radio" name="true">Very likely<br>
+                    <input type="radio" name="true">likely<br>
+                    <input type="radio" name="true">Not likely
+                </div>
+            </form>
+        </div>
+    </section>
+    </body>
+</html>
